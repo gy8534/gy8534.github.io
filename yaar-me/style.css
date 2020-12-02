@@ -4,12 +4,25 @@
   margin: 0;
 }
 
+.navbar img {
+  height: 40px;
+}
+i {
+  font-size: 150%;
+}
+
+.main h1 {
+  text-align: center;
+  color: #ed6e6e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .app {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
 }
 
 .navbar {
@@ -22,27 +35,16 @@
   background-color: #fafafa;
 }
 
-.navbar img {
-  height: 40px;
-}
-i {
-  font-size: 150%;
-}
-
-.main h1 {
-  text-align: center;
-  color: #ed6e6e;
-}
-
 .footer {
   height: 6vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  border-top: 1px solid #dbdbdb;
-  background-color: #fafafa;
   position: fixed;
   left: 0;
   bottom: 0;
+  width: 100%;
+  border-top: 1px solid #dbdbdb;
+  background-color: #fafafa;
 }
